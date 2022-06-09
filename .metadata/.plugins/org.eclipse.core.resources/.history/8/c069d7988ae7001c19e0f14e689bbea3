@@ -1,0 +1,93 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>제현쌤 팬카페</title>
+</head>
+<body>
+<div id="header">
+        <div class="header-wrap">
+            <a href="./index.html"><img class="header-logo" src="./img/titlePic.jpg" alt="헤더 로고"></a>
+            <ul class="header-list">
+                <li class="list-item"><a href="#">회원가입</a></li>
+                <li class="list-item"><a href="#">로그인</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <section>
+        <div id="main">
+            <div id="category">
+                <h3>카테고리</h3>
+                <ul>
+                    <li><a href="#">카테고리1</a></li>
+                    <li><a href="#">카테고리2</a></li>
+                    <li><a href="#">카테고리3</a></li>
+                    <li><a href="#">카테고리4</a></li>
+                    <li><a href="#">카테고리5</a></li>
+                </ul>
+            </div>
+
+            <div class="notice">
+                <div class="page-title">
+                    <div class="container">
+                        <h3>제현쌤을 사랑하는 학생들이 모이는 곳</h3>
+                    </div>
+                </div>
+                <div id="board-list">
+                    <div class="container">
+                        <table class="board-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="th-num">번호</th>
+                                    <th scope="col" class="th-title">제목</th>
+                                    <th scope="col" class="th-date">등록일</th>
+                                    <th scope="col" class="th-heart">좋아요</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <th>
+                                        <a href="#!">안녕</a>
+                                    </th>
+                                    <td>2022.06.04</td>
+                                    <td>1</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <th><a href="#!">안녕!!</a></th>
+                                    <td>2022.06.05</td>
+                                    <td>1</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <th><a href="#!">안녕하세요!</a></th>
+                                    <td>2012.06.05</td>
+                                    <td>1</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <footer>
+        <div id="footer">
+            <div class="footer-wrap">
+                <p>2022 &#8211; 눈물광광조 &#8211;</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

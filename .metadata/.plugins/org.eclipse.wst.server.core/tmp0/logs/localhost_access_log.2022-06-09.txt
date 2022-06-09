@@ -1,0 +1,8 @@
+127.0.0.1 - - [09/Jun/2022:09:25:18 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:19 +0900] "GET /FanCafeProject/jsp/index.jsp HTTP/1.1" 200 5242
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:19 +0900] "GET /FanCafeProject/img/titlePic.jpg HTTP/1.1" 200 97700
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:19 +0900] "GET /FanCafeProject/fonts/LeferiBaseRegular.ttf HTTP/1.1" 200 5156284
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:19 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:36 +0900] "GET /FanCafeProject/jsp/index.jsp HTTP/1.1" 200 5242
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:36 +0900] "GET /FanCafeProject/img/titlePic.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jun/2022:09:25:36 +0900] "GET /FanCafeProject/fonts/LeferiBaseRegular.ttf HTTP/1.1" 304 -
